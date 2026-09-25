@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#5b5ce2">
+  <meta name="description" content="Hệ thống trắc nghiệm Quản trị học gồm 9 chương, 360 câu hỏi, lưu lịch sử làm bài.">
+  <title>Hệ thống trắc nghiệm · Quản trị học</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div class="shell topbar-inner">
+  <a class="brand-wrap" href="index.html"><span class="logo-mark">✓</span><span class="brand">HỆ THỐNG TRẮC NGHIỆM<small>Kho bài kiểm tra theo môn học & chương</small></span></a>
+  <nav class="top-nav"><a class="nav-link active" href="index.html">Trang chủ</a></nav>
+</div></header>
+<main>
+  <section class="hero-shell shell">
+    <div class="hero hero-v2">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> Nền tảng ôn tập Quản trị học</div>
+        <h1>9 chương. 360 câu.<br><span>Một nơi để ôn và kiểm tra.</span></h1>
+        <p>Làm bài theo từng chương, tự động lưu tiến độ, chỉ xem đáp án và giải thích sau khi nộp. Kết quả được lưu theo họ tên và lớp để theo dõi lâu dài.</p>
+        <div class="hero-actions"><a class="btn primary" href="#chapters">Chọn chương để làm →</a><span class="hero-note">Không hiển thị đáp án trước khi nộp</span></div>
+        <div class="hero-mini-stats"><div><strong>9</strong><span>chương</span></div><div><strong>360</strong><span>câu hỏi</span></div><div><strong>40</strong><span>câu / đề</span></div></div>
+      </div>
+      <div class="hero-art hero-art-card"><img src="assets/hero-quiz.svg" alt="Minh họa nền tảng trắc nghiệm"></div>
+    </div>
+  </section>
+  <section class="shell trust-strip"><div><b>Tự động lưu</b><span>Đáp án đang làm được lưu ngay</span></div><div><b>Chấm sau khi nộp</b><span>Không lộ đáp án trong lúc làm</span></div><div><b>Lịch sử lâu dài</b><span>Lưu lượt làm, điểm và thời gian</span></div><div><b>Giám sát từ lượt 3</b><span>Ghi nhận rời trang / mất focus</span></div></section>
+  <section class="shell subject-section" id="chapters">
+    <div class="section-head"><div><div class="eyebrow small">MÔN HỌC</div><h2>Quản trị học</h2><p>Chọn một chương để bắt đầu. Mỗi chương gồm đúng 40 câu theo nội dung đã cung cấp.</p></div><img class="section-illustration" src="assets/management-illustration.svg" alt="Minh họa Quản trị học"></div>
+    <div id="chapterGrid" class="chapter-grid-nine"></div>
+  </section>
+  <section class="shell how-section"><div class="how-card"><div class="how-head"><span>01</span><h3>Nhập Họ và tên + Lớp</h3></div><p>Mỗi lượt làm được gắn với thông tin người học và chương tương ứng.</p></div><div class="how-card"><div class="how-head"><span>02</span><h3>Làm đủ 40 câu</h3></div><p>Đáp án được tự động lưu. Chưa đủ 40 câu thì chưa thể nộp bài.</p></div><div class="how-card"><div class="how-head"><span>03</span><h3>Nộp & xem kết quả</h3></div><p>Điểm, meme, đáp án đúng, giải thích và “Nội dung thuộc” sẽ xuất hiện sau khi nộp.</p></div></section>
+</main>
+<footer class="footer"><div class="shell footer-inner"><span>Hệ thống trắc nghiệm · Quản trị học</span><span>Thiết kế để tiếp tục mở rộng thêm môn học sau này.</span></div></footer>
+<script src="catalog.js"></script><script>
+const grid=document.getElementById('chapterGrid');
+const catalog=window.QUIZ_CATALOG||[];
+grid.innerHTML=catalog.map(c=>`<a class="chapter-card-v2" style="--accent:${c.accent}" href="quiz.html?chapter=${c.slug}"><div class="chapter-top"><span class="chapter-icon">${c.icon}</span><span class="chapter-no">Chương ${c.number}</span></div><h3>${c.short_title}</h3><p>${c.description}</p><div class="chapter-meta"><span>40 câu</span><span>${c.sections.length} phần</span><span>Đã sẵn sàng</span></div><div class="chapter-go">Bắt đầu làm bài <b>→</b></div></a>`).join('');
+</script>
+</body></html>

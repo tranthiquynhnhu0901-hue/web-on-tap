@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "chuong-1",
+    "number": 1,
+    "title": "Chương 1. Tổng quan về quản trị",
+    "short_title": "Tổng quan về quản trị",
+    "question_count": 40,
+    "description": "Khái niệm tổ chức, nhà quản trị, chức năng, cấp quản trị, hiệu quả và vai trò quản trị.",
+    "sections": [
+      "PHẦN I. 20 CÂU THỰC TẾ MỨC DỄ",
+      "PHẦN II. 10 CÂU THỰC TẾ MỨC KHÁ",
+      "PHẦN III. 10 CÂU THỰC TẾ MỨC KHÓ – SUY LUẬN"
+    ],
+    "accent": "#6d5dfc",
+    "icon": "◎",
+    "has_topic": false
+  },
+  {
+    "slug": "chuong-2",
+    "number": 2,
+    "title": "Chương 2. Sự tiến triển của tư tưởng quản trị",
+    "short_title": "Sự tiến triển của tư tưởng quản trị",
+    "question_count": 40,
+    "description": "Từ các tư tưởng quản trị cổ điển đến các quan điểm hiện đại và hội nhập.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#3b82f6",
+    "icon": "↗",
+    "has_topic": true
+  },
+  {
+    "slug": "chuong-3",
+    "number": 3,
+    "title": "Chương 3. Môi trường của tổ chức",
+    "short_title": "Môi trường của tổ chức",
+    "question_count": 40,
+    "description": "Môi trường bên trong, bên ngoài, bất trắc môi trường và cách tổ chức thích nghi.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#06b6d4",
+    "icon": "◫",
+    "has_topic": true
+  },
+  {
+    "slug": "chuong-4",
+    "number": 4,
+    "title": "Chương 4. Văn hóa với quản trị của tổ chức",
+    "short_title": "Văn hóa với quản trị của tổ chức",
+    "question_count": 40,
+    "description": "Văn hóa dân tộc, văn hóa tổ chức, các mô hình văn hóa và tác động đến quản trị.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#8b5cf6",
+    "icon": "✦",
+    "has_topic": true
+  },
+  {
+    "slug": "chuong-5",
+    "number": 5,
+    "title": "Chương 5. Quyết định quản trị",
+    "short_title": "Quyết định quản trị",
+    "question_count": 40,
+    "description": "Thông tin quản trị, quy trình ra quyết định, công cụ và những giới hạn trong quyết định.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#f59e0b",
+    "icon": "◇",
+    "has_topic": true
+  },
+  {
+    "slug": "chuong-6",
+    "number": 6,
+    "title": "Chương 6. Chức năng hoạch định",
+    "short_title": "Chức năng hoạch định",
+    "question_count": 40,
+    "description": "Mục tiêu, kế hoạch, SMART, hoạch định chiến lược và các loại kế hoạch.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#10b981",
+    "icon": "⌁",
+    "has_topic": true
+  },
+  {
+    "slug": "chuong-7",
+    "number": 7,
+    "title": "Chương 7. Chức năng tổ chức",
+    "short_title": "Chức năng tổ chức",
+    "question_count": 40,
+    "description": "Phân công, quyền hạn, tầm hạn quản trị, phân quyền và các dạng cơ cấu tổ chức.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#ef4444",
+    "icon": "▦",
+    "has_topic": true
+  },
+  {
+    "slug": "chuong-8",
+    "number": 8,
+    "title": "Chương 8. Chức năng điều khiển",
+    "short_title": "Chức năng điều khiển",
+    "question_count": 40,
+    "description": "Lãnh đạo, động lực, phong cách lãnh đạo và quản trị xung đột trong tổ chức.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#ec4899",
+    "icon": "♥",
+    "has_topic": true
+  },
+  {
+    "slug": "chuong-9",
+    "number": 9,
+    "title": "Chương 9. Chức năng kiểm tra",
+    "short_title": "Chức năng kiểm tra",
+    "question_count": 40,
+    "description": "Tiến trình kiểm tra, các loại kiểm tra, tiêu chuẩn và hành động điều chỉnh.",
+    "sections": [
+      "PHẦN I. 10 CÂU TRẮC NGHIỆM CƠ BẢN",
+      "PHẦN II. 5 CÂU TRẮC NGHIỆM MỨC KHÁ",
+      "PHẦN III. 5 CÂU TRẮC NGHIỆM MỨC KHÓ",
+      "PHẦN IV. 20 CÂU TRẮC NGHIỆM TÌNH HUỐNG THỰC TẾ"
+    ],
+    "accent": "#64748b",
+    "icon": "✓",
+    "has_topic": true
+  }
+]

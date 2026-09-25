@@ -1,0 +1,15 @@
+VALIDATION REPORT - 9 CHAPTERS / 360 QUESTIONS
+
+Chương 1. Tổng quan về quản trị: questions=40 answers=40 explanations=40 topics=0
+Chương 2. Sự tiến triển của tư tưởng quản trị: questions=40 answers=40 explanations=40 topics=40
+Chương 3. Môi trường của tổ chức: questions=40 answers=40 explanations=40 topics=40
+Chương 4. Văn hóa với quản trị của tổ chức: questions=40 answers=40 explanations=40 topics=40
+Chương 5. Quyết định quản trị: questions=40 answers=40 explanations=40 topics=40
+Chương 6. Chức năng hoạch định: questions=40 answers=40 explanations=40 topics=40
+Chương 7. Chức năng tổ chức: questions=40 answers=40 explanations=40 topics=40
+Chương 8. Chức năng điều khiển: questions=40 answers=40 explanations=40 topics=40
+Chương 9. Chức năng kiểm tra: questions=40 answers=40 explanations=40 topics=40
+
+Total questions: 360
+Chapter 1 topics: 0 (intentionally omitted per source)
+Chapters 2-9 topics: 320

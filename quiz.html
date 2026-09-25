@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#5b5ce2"><title>Làm bài · Quản trị học</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="topbar"><div class="shell topbar-inner"><a class="brand-wrap" href="index.html"><span class="logo-mark">←</span><span class="brand">HỆ THỐNG TRẮC NGHIỆM<small>Quản trị học</small></span></a><div class="top-actions"><span id="monitorBadge" class="monitor-badge hidden">Giám sát lượt làm</span><span id="saveBadge" class="pill live">Sẵn sàng</span></div></div></header>
+<main class="shell quiz-shell">
+  <section id="identityPanel" class="quiz-intro-v2">
+    <div class="panel intro-copy-v2">
+      <div class="intro-kicker"><span id="chapterNumberPill" class="pill">40 câu</span><span class="pill soft">Quản trị học</span></div>
+      <h1 id="introTitle">Đang tải chương...</h1>
+      <p>Nhập thông tin trước khi bắt đầu. Hệ thống sẽ lưu lượt làm và từng đáp án để có thể tiếp tục nếu trang bị tải lại.</p>
+      <div class="form-grid"><div class="form-row"><label for="fullName">Họ và tên *</label><input id="fullName" class="input" autocomplete="name" placeholder="Ví dụ: Nguyễn Văn A"></div><div class="form-row"><label for="className">Lớp *</label><input id="className" class="input" autocomplete="organization" placeholder="Ví dụ: QTKD01"></div></div>
+      <div class="rule-box"><strong>Quy định làm bài</strong><ul><li>Phải trả lời đủ 40 câu mới được nộp.</li><li>Trong lúc làm không hiện đáp án, đúng/sai, giải thích hay “Nội dung thuộc”.</li><li>Từ lượt thứ 3 của cùng người + lớp + chương, hệ thống ghi nhận rời trang, mất focus, thoát toàn màn hình hoặc phiên trình duyệt song song; báo cáo chỉ hiện sau khi nộp.</li></ul></div>
+      <div class="start-row"><button id="startBtn" class="btn primary">Bắt đầu / Tiếp tục bài →</button><a class="btn secondary" href="index.html">Về trang chủ</a></div><div id="startMsg" class="notice"></div>
+    </div>
+    <div class="intro-art-v2"><img src="assets/quiz-start.svg" alt="Minh họa bắt đầu bài kiểm tra"><div><b>40 câu · Tự động lưu</b><span>Đáp án chỉ mở sau khi nộp</span></div></div>
+  </section>
+
+  <section id="quizMain" class="quiz-main"><div class="quiz-layout">
+    <div class="quiz-content"><div class="quiz-header-v2"><div><div class="eyebrow small" id="quizEyebrow">QUẢN TRỊ HỌC</div><h1 id="quizTitle"></h1><p id="studentLine"></p></div><div class="attempt-chip" id="attemptText"></div></div><div id="questions"></div></div>
+    <aside class="sidebar"><div class="panel progress-card"><div class="sidebar-heading"><h3>Tiến độ</h3><span id="progressText">0/40</span></div><div class="progress-line"><span id="progressBar"></span></div><div class="progress-sub"><span id="remainingText">Còn 40 câu</span><span id="saveText">Chưa bắt đầu</span></div><div id="qNav" class="q-nav"></div><div class="submit-box"><button id="submitBtn" class="btn primary" disabled>Nộp bài</button><a class="btn secondary" href="index.html">← Về trang chủ</a></div><div id="submitNotice" class="notice"></div></div></aside>
+  </div></section>
+
+  <section id="result" class="result"><div class="result-hero"><div class="score-panel"><div class="eyebrow small">KẾT QUẢ BÀI LÀM</div><div id="scoreBig" class="score-big">0/40</div><div id="scoreMeta" class="score-meta"></div><div class="result-actions"><a class="btn secondary" href="index.html">← Trang chủ</a><button id="retryBtn" class="btn primary">Làm lượt mới</button></div></div><div id="meme" class="meme-card"></div></div><div id="monitorReport"></div><div id="review" class="review"></div></section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="catalog.js"></script><script src="config.js"></script><script src="app.js"></script>
+</body></html>
